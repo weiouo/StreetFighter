@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class Player2_Input : MonoBehaviour
 {
-    private SerialPort serialPort = new SerialPort("COM8", 1200); 
-
+    private SerialPort serialPort = new SerialPort("COM8", 1200);
+    private Animator animator;
 
     void Start()
     {
         try
         {
+            animator = GetComponent<Animator>();
+
             serialPort.Open();
             serialPort.ReadTimeout = 500;
             Debug.Log("serialPort open");
@@ -35,10 +37,12 @@ public class Player2_Input : MonoBehaviour
                     if (receivedData == 'A')
                     {
                         Debug.Log("Attack Button Pressed");
+                        animator.SetTrigger("Attack");
                     }
                     else
                     {
-                        Debug.Log("Attack Button Pressed");
+                        Debug.Log("Defend Button Pressed");
+                        animator.SetTrigger("Defend");
                     }
                     serialPort.DiscardInBuffer();
                 }
