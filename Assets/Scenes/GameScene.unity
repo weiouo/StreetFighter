@@ -403,19 +403,41 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &568414824
-MonoBehaviour:
+--- !u!70 &568414829
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568414813}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf2cb851358e0524896f317dc26d31f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blood: 10
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.078122854, y: 0}
+  m_Size: {x: 0.51866865, y: 0.86}
+  m_Direction: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +604,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1454801335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6635179324175491278, guid: 7e03027d2869f3a418a55ec856ee5e1d, type: 3}
+  m_PrefabInstance: {fileID: 299847614348850178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1454801339
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454801335}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000007947286, y: 0.014314532}
+  m_Size: {x: 0.4422536, y: 0.9586298}
+  m_Direction: 0
 --- !u!1001 &299847614348850178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -637,7 +699,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6635179324175491278, guid: 7e03027d2869f3a418a55ec856ee5e1d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1454801339}
   m_SourcePrefab: {fileID: 100100000, guid: 7e03027d2869f3a418a55ec856ee5e1d, type: 3}
 --- !u!1001 &8737762542014064170
 PrefabInstance:
@@ -651,6 +716,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 757175240982834361, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
+      propertyPath: player1
+      value: 
+      objectReference: {fileID: 1454801335}
+    - target: {fileID: 757175240982834361, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 568414813}
     - target: {fileID: 8567997017769813350, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -704,7 +777,7 @@ PrefabInstance:
       addedObject: {fileID: 568414814}
     - targetCorrespondingSourceObject: {fileID: 529914553554489500, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 568414824}
+      addedObject: {fileID: 568414829}
   m_SourcePrefab: {fileID: 100100000, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
