@@ -403,6 +403,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &568414824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568414813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf2cb851358e0524896f317dc26d31f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: 10
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,9 +651,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 8567997017769813350, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8819316602023509993, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.56
+      value: -7.09
       objectReference: {fileID: 0}
     - target: {fileID: 8819316602023509993, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
       propertyPath: m_LocalPosition.y
@@ -685,6 +702,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 529914553554489500, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
       insertIndex: -1
       addedObject: {fileID: 568414814}
+    - targetCorrespondingSourceObject: {fileID: 529914553554489500, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 568414824}
   m_SourcePrefab: {fileID: 100100000, guid: 9ad90dd0761a9fc4b963b1924e2a9054, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

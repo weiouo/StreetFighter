@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Player2_Input : MonoBehaviour
 {
-    private SerialPort serialPort = new SerialPort("COM8", 1200);
+    private SerialPort serialPort1 = new SerialPort("COM8", 1200);
+    private SerialPort serialPort2 = new SerialPort("COM5", 1200);
     private Animator animator;
 
     void Start()
@@ -14,10 +15,14 @@ public class Player2_Input : MonoBehaviour
         {
             animator = GetComponent<Animator>();
 
-            serialPort.Open();
-            serialPort.ReadTimeout = 500;
-            Debug.Log("serialPort open");
-            serialPort.DiscardInBuffer();
+            serialPort1.Open();
+            serialPort1.ReadTimeout = 500;
+            Debug.Log("serialPort1 open");
+            serialPort2.Open();
+            serialPort2.ReadTimeout = 500;
+            Debug.Log("serialPort2 open");
+            serialPort1.DiscardInBuffer();
+            serialPort2.DiscardInBuffer();
         }
         catch (System.Exception ex)
         {
@@ -27,24 +32,51 @@ public class Player2_Input : MonoBehaviour
 
     void Update()
     {
-        if (serialPort.IsOpen)
+        if (serialPort1.IsOpen)
         {
             try
             {
-                if (serialPort.BytesToRead > 0)
+                if (serialPort1.BytesToRead > 0)
                 {
-                    char receivedData = (char)serialPort.ReadChar();
+                    char receivedData = (char)serialPort1.ReadChar();
                     if (receivedData == 'A')
                     {
-                        Debug.Log("Attack Button Pressed");
+                        Debug.Log("1 Attack Button Pressed");
                         animator.SetTrigger("Attack");
+
                     }
-                    else
+                    else if (receivedData == 'B')
                     {
-                        Debug.Log("Defend Button Pressed");
+                        Debug.Log("1 Defend Button Pressed");
                         animator.SetTrigger("Defend");
                     }
-                    serialPort.DiscardInBuffer();
+                    serialPort1.DiscardInBuffer();
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError("Error: " + ex.Message);
+            }
+        }
+        if (serialPort2.IsOpen)
+        {
+            try
+            {
+                if (serialPort2.BytesToRead > 0)
+                {
+                    char receivedData = (char)serialPort2.ReadChar();
+                    if (receivedData == 'A')
+                    {
+                        Debug.Log("2 Attack Button Pressed");
+                        
+
+                    }
+                    else if (receivedData == 'D')
+                    {
+                        Debug.Log("2 Defend Button Pressed");
+               
+                    }
+                    serialPort2.DiscardInBuffer();
                 }
             }
             catch (System.Exception ex)
@@ -57,10 +89,15 @@ public class Player2_Input : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        if (serialPort.IsOpen)
+        if (serialPort1.IsOpen)
         {
-            serialPort.Close();
-            Debug.Log("serialPort close");
+            serialPort1.Close();
+            Debug.Log("serialPort1 close");
+        }
+        if (serialPort2.IsOpen)
+        {
+            serialPort2.Close();
+            Debug.Log("serialPort2 close");
         }
     }
 }
