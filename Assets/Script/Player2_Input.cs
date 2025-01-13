@@ -6,7 +6,6 @@ using UnityEngine;
 public class Player2_Input : MonoBehaviour
 {
     private SerialPort serialPort1 = new SerialPort("COM8", 1200);
-    //private SerialPort serialPort2 = new SerialPort("COM5", 1200);
     private Animator animator;
     public float speed = 1f;
 
@@ -27,11 +26,7 @@ public class Player2_Input : MonoBehaviour
             serialPort1.Open();
             serialPort1.ReadTimeout = 500;
             Debug.Log("serialPort1 open");
-            /*serialPort2.Open();
-            serialPort2.ReadTimeout = 500;
-            Debug.Log("serialPort2 open");*/
             serialPort1.DiscardInBuffer();
-            //serialPort2.DiscardInBuffer();
         }
         catch (System.Exception ex)
         {
@@ -80,33 +75,6 @@ public class Player2_Input : MonoBehaviour
                 Debug.LogError("Error: " + ex.Message);
             }
         }
-        
-        /*if (serialPort2.IsOpen)
-        {
-            try
-            {
-                if (serialPort2.BytesToRead > 0)
-                {
-                    char receivedData = (char)serialPort2.ReadChar();
-                    if (receivedData == 'A')
-                    {
-                        Debug.Log("2 Attack Button Pressed");
-                        
-
-                    }
-                    else if (receivedData == 'D')
-                    {
-                        Debug.Log("2 Defend Button Pressed");
-               
-                    }
-                    serialPort2.DiscardInBuffer();
-                }
-            }
-            catch (System.Exception ex)
-            {
-                Debug.LogError("Error: " + ex.Message);
-            }
-        }*/
     }
     private void MovePlayer(float move) {
         Vector3 newPosition = transform.position;
@@ -120,12 +88,17 @@ public class Player2_Input : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName("Player2_attack")) ;
-        if (stateInfo.IsName("Player2_defend")) ;
 
-        if (collision.gameObject == player1) {
+        if (collision.gameObject == player1)
+        {
+            Animator player1Animator = player1.GetComponent<Animator>();
 
-            Debug.Log("player2 -> player1\n");
+            AnimatorStateInfo player1StateInfo = player1Animator.GetCurrentAnimatorStateInfo(0);
+
+           if (player1StateInfo.IsName("Player1_attack"))
+            {
+                if (!stateInfo.IsName("Player2_defend")) blood--;
+            }
         }
     }
 
@@ -137,10 +110,5 @@ public class Player2_Input : MonoBehaviour
             serialPort1.Close();
             Debug.Log("serialPort1 close");
         }
-       /* if (serialPort2.IsOpen)
-        {
-            serialPort2.Close();
-            Debug.Log("serialPort2 close");
-        }*/
     }
 }
