@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: 7e58e4ae6eb33cd4c81bbe9395ad2bfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2519357977476911796
+    second: Geki (1)_0
+  - first:
+      213: 3711303703216337844
+    second: Geki (1)_1
+  - first:
+      213: -4538961555218129866
+    second: Geki (1)_2
+  - first:
+      213: -4856873721595151903
+    second: Geki (1)_3
+  - first:
+      213: -730364618921814787
+    second: Geki (1)_4
+  - first:
+      213: -7253090226466364152
+    second: Geki (1)_5
+  - first:
+      213: 4718674445799333845
+    second: Geki (1)_6
+  - first:
+      213: 243658328912963066
+    second: Geki (1)_7
+  - first:
+      213: 6071311559939667970
+    second: Geki (1)_8
+  - first:
+      213: -245736701321877332
+    second: Geki (1)_9
+  - first:
+      213: 6534495811862480977
+    second: Geki (1)_10
+  - first:
+      213: 5651652480229029305
+    second: Geki (1)_11
+  - first:
+      213: -7266940944610218103
+    second: Geki (1)_12
+  - first:
+      213: 3780279650176704330
+    second: Geki (1)_13
+  - first:
+      213: 8599562595375420444
+    second: Geki (1)_14
+  - first:
+      213: -7148704463947140794
+    second: Geki (1)_15
+  - first:
+      213: -7195325316218396527
+    second: Geki (1)_16
+  - first:
+      213: -8093540762847986405
+    second: Geki (1)_17
+  - first:
+      213: 3017971660389820344
+    second: Geki (1)_18
+  - first:
+      213: 1039782043039221140
+    second: Geki (1)_19
+  - first:
+      213: 259887290441555465
+    second: Geki (1)_20
+  - first:
+      213: -585542363540223359
+    second: Geki (1)_21
+  - first:
+      213: 7515585940018026564
+    second: Geki (1)_22
+  - first:
+      213: -8769524779848080566
+    second: Geki (1)_23
+  - first:
+      213: -6608794997202146898
+    second: Geki (1)_24
+  - first:
+      213: -2018455573863171356
+    second: Geki (1)_25
+  - first:
+      213: -8445808462418578111
+    second: Geki (1)_26
+  - first:
+      213: 42804380528536157
+    second: Geki (1)_27
+  - first:
+      213: -122247378817864125
+    second: Geki (1)_28
+  - first:
+      213: -1695372706990614560
+    second: Geki (1)_29
+  - first:
+      213: 1500310304266460715
+    second: Geki (1)_30
+  - first:
+      213: -1216989857910620939
+    second: Geki (1)_31
+  - first:
+      213: -875671127460228662
+    second: Geki (1)_32
+  - first:
+      213: 1203411249879630771
+    second: Geki (1)_33
+  - first:
+      213: -4782287243519932449
+    second: Geki (1)_34
+  - first:
+      213: -4395074579776536251
+    second: Geki (1)_35
+  - first:
+      213: 3075674361764549332
+    second: Geki (1)_36
+  - first:
+      213: 4237384636789193637
+    second: Geki (1)_37
+  - first:
+      213: -3203514287912762218
+    second: Geki (1)_38
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Geki (1)_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 406
+        width: 100
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d21728441790dd0800000000000000
+      internalID: -2519357977476911796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 406
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b33dc30e03318330800000000000000
+      internalID: 3711303703216337844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 406
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c9114938e5201c0800000000000000
+      internalID: -4538961555218129866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 406
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e93461451be89cb0800000000000000
+      internalID: -4856873721595151903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 406
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4d6acaf393dd5f0800000000000000
+      internalID: -730364618921814787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_5
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 406
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8056d971ed8d75b90800000000000000
+      internalID: -7253090226466364152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_6
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 406
+        width: 52
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df159868691c7140800000000000000
+      internalID: 4718674445799333845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 406
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af52c6d85f5a16300800000000000000
+      internalID: 243658328912963066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 302
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2083de252b1a14450800000000000000
+      internalID: 6071311559939667970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 302
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8ee69a5c7f69cf0800000000000000
+      internalID: -245736701321877332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 302
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1584754d1513faa50800000000000000
+      internalID: 6534495811862480977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 302
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5b10eacf3be6e40800000000000000
+      internalID: 5651652480229029305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_12
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 302
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f24c876b3a62b90800000000000000
+      internalID: -7266940944610218103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_13
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 302
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f9b642050467430800000000000000
+      internalID: 3780279650176704330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 302
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1496193e98c75770800000000000000
+      internalID: 8599562595375420444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6417e2e5a23bacc90800000000000000
+      internalID: -7148704463947140794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 206
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1906d635fb1152c90800000000000000
+      internalID: -7195325316218396527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 206
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d3d4fbe87fdaf80800000000000000
+      internalID: -8093540762847986405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 206
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b72bb73c3df1e920800000000000000
+      internalID: 3017971660389820344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 206
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ce27524c0e6e00800000000000000
+      internalID: 1039782043039221140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 206
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e586c1d1e4b9300800000000000000
+      internalID: 259887290441555465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 206
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a0e3c925cbfd7f0800000000000000
+      internalID: -585542363540223359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_22
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 206
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448d1b9d799bc4860800000000000000
+      internalID: 7515585940018026564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_23
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 206
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a436b28fca36c4680800000000000000
+      internalID: -8769524779848080566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_24
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 114
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9236607f7d844a0800000000000000
+      internalID: -6608794997202146898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 114
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea7afc89510df3e0800000000000000
+      internalID: -2018455573863171356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 110
+        width: 100
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1457d8483f57aca80800000000000000
+      internalID: -8445808462418578111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_27
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 110
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5aeb387b52189000800000000000000
+      internalID: 42804380528536157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_28
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 110
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ea6da18a0bd4ef0800000000000000
+      internalID: -122247378817864125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 110
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e79ee56183d878e0800000000000000
+      internalID: -1695372706990614560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 110
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e19a2d54c22d410800000000000000
+      internalID: 1500310304266460715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 48
+        width: 258
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcfbff0c226c1fe0800000000000000
+      internalID: -1216989857910620939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_32
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 90
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1daa3cfbdf8d3f0800000000000000
+      internalID: -875671127460228662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_33
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 86
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3c8c3e72063b010800000000000000
+      internalID: 1203411249879630771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_34
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 57
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7cc14f617e1adb0800000000000000
+      internalID: -4782287243519932449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_35
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 64
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541021fa4fe8103c0800000000000000
+      internalID: -4395074579776536251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_36
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 8
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d290c1598dfeaa20800000000000000
+      internalID: 3075674361764549332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_37
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 8
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab748460e63eca30800000000000000
+      internalID: 4237384636789193637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geki (1)_38
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 6
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69442146ab4da83d0800000000000000
+      internalID: -3203514287912762218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Geki (1)_0: -2519357977476911796
+      Geki (1)_1: 3711303703216337844
+      Geki (1)_10: 6534495811862480977
+      Geki (1)_11: 5651652480229029305
+      Geki (1)_12: -7266940944610218103
+      Geki (1)_13: 3780279650176704330
+      Geki (1)_14: 8599562595375420444
+      Geki (1)_15: -7148704463947140794
+      Geki (1)_16: -7195325316218396527
+      Geki (1)_17: -8093540762847986405
+      Geki (1)_18: 3017971660389820344
+      Geki (1)_19: 1039782043039221140
+      Geki (1)_2: -4538961555218129866
+      Geki (1)_20: 259887290441555465
+      Geki (1)_21: -585542363540223359
+      Geki (1)_22: 7515585940018026564
+      Geki (1)_23: -8769524779848080566
+      Geki (1)_24: -6608794997202146898
+      Geki (1)_25: -2018455573863171356
+      Geki (1)_26: -8445808462418578111
+      Geki (1)_27: 42804380528536157
+      Geki (1)_28: -122247378817864125
+      Geki (1)_29: -1695372706990614560
+      Geki (1)_3: -4856873721595151903
+      Geki (1)_30: 1500310304266460715
+      Geki (1)_31: -1216989857910620939
+      Geki (1)_32: -875671127460228662
+      Geki (1)_33: 1203411249879630771
+      Geki (1)_34: -4782287243519932449
+      Geki (1)_35: -4395074579776536251
+      Geki (1)_36: 3075674361764549332
+      Geki (1)_37: 4237384636789193637
+      Geki (1)_38: -3203514287912762218
+      Geki (1)_4: -730364618921814787
+      Geki (1)_5: -7253090226466364152
+      Geki (1)_6: 4718674445799333845
+      Geki (1)_7: 243658328912963066
+      Geki (1)_8: 6071311559939667970
+      Geki (1)_9: -245736701321877332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

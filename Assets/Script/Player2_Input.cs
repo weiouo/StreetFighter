@@ -1,32 +1,44 @@
 using System;
+using System.Drawing.Text;
 using System.IO.Ports;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player2_Input : MonoBehaviour
 {
-    private SerialPort serialPort1 = new SerialPort("COM8", 1200);
+    private SerialPort serialPort2 = new SerialPort("COM8", 1200);
     private Animator animator;
-    public float speed = 1f;
+    private Animator player1Animator;
+    public float speed = 4f;
 
     public float minX = -8f;
     public float maxX = 8f;
 
     public int blood = 10;
 
+    private bool defend = false;
+    private bool isGaming = false;
+    private bool starting = false;
+
     public GameObject player1;
     public GameObject player2;
+
+    private Player1_Input player1_state;
+
 
     void Start()
     {
         try
         {
             animator = GetComponent<Animator>();
+            player1Animator = player1.GetComponent<Animator>();
+            player1_state = player1.GetComponent<Player1_Input>();
 
-            serialPort1.Open();
-            serialPort1.ReadTimeout = 500;
-            Debug.Log("serialPort1 open");
-            serialPort1.DiscardInBuffer();
+            serialPort2.Open();
+            serialPort2.ReadTimeout = 500;
+            Debug.Log("serialPort2 open");
+            serialPort2.DiscardInBuffer();
         }
         catch (System.Exception ex)
         {
@@ -37,44 +49,79 @@ public class Player2_Input : MonoBehaviour
     void Update()
     {
         float move = 0f;
-        if (serialPort1.IsOpen)
+        if (isGaming)
         {
-            try
+            if (serialPort2.IsOpen)
             {
-                if (serialPort1.BytesToRead > 0)
+                try
                 {
-                    char receivedData = (char)serialPort1.ReadChar();
-                    if (receivedData == 'A')
+                    if (serialPort2.BytesToRead > 0)
                     {
-                        Debug.Log("1 Attack Button Pressed");
-                        animator.SetTrigger("Attack");
 
-                    }
-                    else if (receivedData == 'B')
-                    {
-                        Debug.Log("1 Defend Button Pressed");
-                        animator.SetTrigger("Defend");
-                    }
-                    else if (receivedData == 'l')
-                    {
-                        Debug.Log("1 left");
-                        move = -2.5f;
-                        MovePlayer(move);
+                        char receivedData = (char)serialPort2.ReadChar();
+                        if (receivedData == 'A')
+                        {
+                            Debug.Log("2 Attack Button Pressed");
+                            animator.SetTrigger("Attack");
+                            if (transform.position.x - player1.transform.position.x < 3 && transform.position.x - player1.transform.position.x > -3)
+                            {
+                                if (!player1_state.getDefend())
+                                {
+                                    Invoke("attack", 0.5f);
+                                }
+                            }
+                            player1_state.setDefend();
 
-                    }
-                    else if (receivedData == 'r')
-                    {
-                        Debug.Log("1 right");
-                        move = 2.5f;
-                        MovePlayer(move);
+                        }
+                        else if (receivedData == 'B')
+                        {
+                            Debug.Log("2 Defend Button Pressed");
+                            animator.SetTrigger("Defend");
+                            defend = true;
+                        }
+                        else if (receivedData == 'l')
+                        {
+                            Debug.Log("2 left");
+                            move = -2.5f;
+                            MovePlayer(move);
+
+                        }
+                        else if (receivedData == 'r')
+                        {
+                            Debug.Log("2 right");
+                            move = 2.5f;
+                            MovePlayer(move);
+                        }
                     }
                 }
-            }
-            catch (System.Exception ex)
-            {
-                Debug.LogError("Error: " + ex.Message);
+                catch (System.Exception ex)
+                {
+                    Debug.LogError("Error: " + ex.Message);
+                }
             }
         }
+        else
+        {
+            if (serialPort2.IsOpen)
+            {
+                try
+                {
+                    if (serialPort2.BytesToRead > 0)
+                    {
+                        char receivedData = (char)serialPort2.ReadChar();
+                        if (receivedData == 'A')
+                        {
+                          starting = true;
+                        }
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    Debug.LogError("Error: " + ex.Message);
+                }
+            }
+        }
+        if (blood <= 0) animator.SetTrigger("Die");
     }
     private void MovePlayer(float move) {
         Vector3 newPosition = transform.position;
@@ -87,28 +134,40 @@ public class Player2_Input : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-
-        if (collision.gameObject == player1)
-        {
-            Animator player1Animator = player1.GetComponent<Animator>();
-
-            AnimatorStateInfo player1StateInfo = player1Animator.GetCurrentAnimatorStateInfo(0);
-
-           if (player1StateInfo.IsName("Player1_attack"))
-            {
-                if (!stateInfo.IsName("Player2_defend")) blood--;
-            }
-        }
+    }
+    void attack()
+    {
+        player1_state.blood--;
+    }
+    public bool getDefend()
+    {
+        return defend;
+    }
+    public void setDefend()
+    {
+        defend = false;
     }
 
+    public void setIsGaming(bool state)
+    {
+        isGaming = state;
+    }
+
+    public bool startGaming()
+    {
+        return starting;
+    }
+    public void stopGaming()
+    {
+        starting = false;
+    }
 
     void OnApplicationQuit()
     {
-        if (serialPort1.IsOpen)
+        if (serialPort2.IsOpen)
         {
-            serialPort1.Close();
-            Debug.Log("serialPort1 close");
+            serialPort2.Close();
+            Debug.Log("serialPort2 close");
         }
     }
 }
